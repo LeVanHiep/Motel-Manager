@@ -1,0 +1,137 @@
+html,body
+{
+	margin: 0;
+	font-family: sans-serif;
+	width: 100%;
+}
+.All
+{
+	height: 100%;
+	width: 100%;
+	padding: 0;
+}
+.Menu
+{
+	height: 80px;
+	width: 100%;
+	display: flex;
+}
+.Menu .Logo
+{
+	height: 100%;
+	width: 80px;
+	background-image: url(images/logo.png);
+	background-size: 80px 80px;
+	background-repeat: no-repeat;
+	margin-left: 24px;
+}
+
+.Center
+{
+	height: 640px;
+	background-color: white;
+}
+.Center .Space
+{
+	width: 100%;
+	height: 20px;
+}
+.Center .Border
+{
+	background-color: white;
+	height: 600px;
+	margin: 0px 20px;
+	border: 2px rgb(33,185,244) solid;
+	border-radius: 20px;
+}
+.Center .Border .Middle
+{
+	width: 50%;
+	text-align: center;
+	color: rgb(33,185,244);
+	margin: 0 auto;
+}
+.Center .Border .Middle .Title
+{
+	font-weight: bold;
+	font-size: 36px;
+	padding-top: 120px;
+}
+.Center .Border .Middle .InputBox
+{
+	padding-top: 40px;
+	display: flex;
+	border-bottom: 1px rgb(33,185,244) solid;
+	height: 40px;
+}
+::placeholder
+{
+	color: rgb(33,185,244);
+}
+.Center .Border .Middle .InputBox i
+{
+	font-size: 36px;
+}
+.Center .Border .Middle .InputBox input
+{
+	outline: none;
+	border: none;
+	width: 90%;
+	font-size: 12px;
+	padding: 0 20px;
+	color: rgb(33,185,244);
+}
+.Center .Border .Middle .Flex
+{
+	display: flex;
+	margin-top: 40px;
+}
+.Center .Border .Middle .Flex a
+{
+	margin-left: 220px;
+}
+.Center .Border .Middle .Login
+{
+	margin-top: 40px;
+	width: 100%;
+	height: 40px;
+	border-radius: 5px;
+	background-color: rgb(33,185,244);
+	color: white;
+	line-height: 40px;
+	font-weight: bold;
+	font-size: 24px;
+}
+
+
+.Footer
+{
+	height: 320px;
+	background-image: url(images/footer.jpg);
+	background-size: 100% 100%;
+	display: flex;
+	color: white;
+}
+.Footer .Info
+{
+	width: 25%;
+	margin: 12.5%;
+	margin-top: 8%;
+}
+.Footer .Info .Title
+{
+	font-weight: bold;
+	font-size: 36px;
+	margin-bottom: 12px;
+}
+
+.Creator
+{
+	background-color: rgb(5,7,6);
+	color: white;
+	font-weight: bold;
+	height: 40px;
+	line-height: 40px;
+	letter-spacing: 5px;
+	text-align: center;
+}
