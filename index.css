@@ -4,6 +4,14 @@ html,body
 	font-family: sans-serif;
 	width: 100%;
 }
+a
+{
+	text-decoration: none;
+}
+.Logo,a:hover
+{
+	cursor: pointer;
+}
 .All
 {
 	height: 100%;
@@ -85,10 +93,14 @@ html,body
 {
 	display: flex;
 	margin-top: 40px;
+	position: relative;
 }
 .Center .Border .Middle .Flex a
 {
-	margin-left: 220px;
+	position: absolute;
+	right: 0px;
+	text-decoration: none;
+	color: rgb(33,185,244);
 }
 .Center .Border .Middle .Login
 {
@@ -102,8 +114,6 @@ html,body
 	font-weight: bold;
 	font-size: 24px;
 }
-
-
 .Footer
 {
 	height: 320px;
